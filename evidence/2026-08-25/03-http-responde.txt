@@ -1,0 +1,11 @@
+# comando: curl -I http://127.0.0.1  (2026-08-25T09:14:54-04:00)
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 25 Aug 2026 13:15:00 GMT
+Content-Type: text/html
+Content-Length: 10703
+Last-Modified: Sun, 18 Aug 2024 19:55:22 GMT
+Connection: keep-alive
+ETag: "66c251aa-29cf"
+Accept-Ranges: bytes
+

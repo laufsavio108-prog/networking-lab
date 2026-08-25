@@ -1,0 +1,14 @@
+# comando: sudo ufw status verbose  (2026-08-25T09:14:15-04:00)
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+80/tcp                     ALLOW IN    Anywhere                  
+443                        ALLOW IN    Anywhere                  
+22/tcp                     ALLOW IN    192.168.56.1              
+80/tcp (v6)                ALLOW IN    Anywhere (v6)             
+443 (v6)                   ALLOW IN    Anywhere (v6)             
+

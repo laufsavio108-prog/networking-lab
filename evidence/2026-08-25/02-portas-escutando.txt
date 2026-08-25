@@ -1,0 +1,8 @@
+# comando: sudo ss -tlnp  (2026-08-25T09:14:36-04:00)
+State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                                                         
+LISTEN 0      128          0.0.0.0:22         0.0.0.0:*    users:(("sshd",pid=816,fd=3))                                                  
+LISTEN 0      511          0.0.0.0:80         0.0.0.0:*    users:(("nginx",pid=6231,fd=5),("nginx",pid=6230,fd=5),("nginx",pid=6229,fd=5))
+LISTEN 0      4096       127.0.0.1:8090       0.0.0.0:*    users:(("docker-proxy",pid=1707,fd=7))                                         
+LISTEN 0      4096       127.0.0.1:45619      0.0.0.0:*    users:(("containerd",pid=818,fd=10))                                           
+LISTEN 0      128             [::]:22            [::]:*    users:(("sshd",pid=816,fd=4))                                                  
+LISTEN 0      511             [::]:80            [::]:*    users:(("nginx",pid=6231,fd=6),("nginx",pid=6230,fd=6),("nginx",pid=6229,fd=6))
