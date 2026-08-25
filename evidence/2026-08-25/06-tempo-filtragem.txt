@@ -1,0 +1,13 @@
+# Origem: Windows 11, host 192.168.56.1, PowerShell
+# Comando: (Measure-Command { tnc 192.168.56.101 -Port N -InformationLevel Quiet }).TotalSeconds
+# Data: 2026-08-25 ~09:05 -04:00
+
+Porta 80   (liberada)  -> 0,0047 s  TcpTestSucceeded: True
+Porta 9999 (sem regra) -> 21,0324 s TcpTestSucceeded: False
+
+Porta fechada sem firewall responderia RST em milissegundos (refused).
+A espera de 21 s indica descarte silencioso do pacote (DROP).
+
+Corroboracao: 05-bloqueio-registrado.log mostra 5 retransmissoes do mesmo
+SYN (SPT=63299) as 09:05:29/30/32/36/44, intervalos de 1-2-4-8 s.
+Do primeiro SYN ate a desistencia da pilha TCP: ~21 s, batendo com a medicao.
