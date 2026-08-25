@@ -1,0 +1,7 @@
+# comando: sudo sshd -T  (2026-08-25T09:29:21-04:00)
+permitrootlogin no
+pubkeyauthentication yes
+passwordauthentication no
+kbdinteractiveauthentication no
+x11forwarding no
+permitemptypasswords no

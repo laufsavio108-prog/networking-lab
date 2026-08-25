@@ -1,6 +1,7 @@
-# comando: sudo sshd -T  (2026-08-25T09:15:06-04:00)
+# comando: sudo sshd -T  (2026-08-25T09:27:58-04:00)
 permitrootlogin without-password
 pubkeyauthentication yes
 passwordauthentication yes
+kbdinteractiveauthentication no
 x11forwarding yes
 permitemptypasswords no
